@@ -28,9 +28,9 @@ Put your title and description (optional). The service will show the most likely
 *   See [EDA Notebook](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/EDA.ipynb)
 
 ## Model
-Model: **microsoft/deberta-v3-small** - tuned BERT is great in learning connection between context and word 
+`microsoft/deberta-v3-small`
 
-Made fine-tuning for news classification
+DeBERTa-v3 represents content and relative position separately. This architecture is more effective for short, structured texts like news headlines compared to traditional BERT. Small - just for fast inference on CPU (metrics are fine so why not)
 
 ## Experiments
 *   **Number of Epochs:** 3 
