@@ -23,7 +23,7 @@ Put your title and description (optional). The service will show the most likely
 
 ## Data
 *   **Dataset:** `ag_news` - benchmark dataset for short text classification
-*   **Why this choice?** It is perfectly balanced across 4 distinct categories (World, Sports, Business, Sci/Tech), allowing us to train a classifier without dealing with severe class imbalance. The short nature of news titles and abstracts makes it an ideal environment to test the raw efficiency and speed of NLU models
+*   **Why this choice?** Great balance across 4 distinct categories. Clean data, this dataset is popular (don't need to do dirty work, I'm too busy)
 *   **Subset sizes:** 10,000 samples for training and 2,000 samples for testing
 *   See [EDA Notebook](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/EDA.ipynb)
 
