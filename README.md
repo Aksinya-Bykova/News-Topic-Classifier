@@ -47,12 +47,15 @@ Made fine-tuning for news classification
 
 This version is deployed on HF
 
+# from 751 to 12 ms!!! (see last picture)
+
 ![sample onnx](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2021-22-55.png)
 
-# from 751 to 12 ms!!! (see last picture)
+# Trumped (why not?)
 
 ![sample onnx](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2021-12-50.png)
 
-# Trumped (why not?)
+# Add description (also fast)
+
 
 ![sample onnx](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2021-36-18.png)
