@@ -25,13 +25,17 @@ Train subset: 10.000 samples
 Test subset: 2000 samples
 
 ## Model
-Model: microsoft/deberta-v3-small - tuned BERT is great in learning connection between context and word 
+Model: **microsoft/deberta-v3-small** - tuned BERT is great in learning connection between context and word 
 
 Made fine-tuning for news classification
 
 ## Experiments
+*   **Number of Epochs:** 3 (times of learning all dataset)
+*   **Learning Rate:** `2e-5` (a low value chosen to preserve the model's pre-trained knowledge and avoid breaking it)
+*   **Batch Size:** 16 (the model processed the data in groups of 16 samples per iteration)
+*   **Optimization:** `weight_decay=0.01` was used as a regularization technique to prevent overfitting
+*   **Evaluation Strategy:** The model was evaluated on the test set at the end of every epoch (`eval_strategy="epoch"`)
 
+## Results
 *   Highest Accuracy: **Sports**, **F1-score of 0.97**, indicating very high precision and recall.
 *   Classification Challenges: Performance slightly dips in the **Business** and **Sci/Tech** (**F1-score 0.86–0.87**). This marginal decrease is likely caused by lexical overlap, as both categories often share common terminology regarding finance, corporate entities, and technological innovation
-
-## Result
