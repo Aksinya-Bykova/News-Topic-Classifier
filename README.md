@@ -31,4 +31,7 @@ Made fine-tuning for news classification
 
 ## Experiments
 
+*   Highest Accuracy: **Sports**, **F1-score of 0.97**, indicating very high precision and recall.
+*   Classification Challenges: Performance slightly dips in the **Business** and **Sci/Tech** (**F1-score 0.86–0.87**). This marginal decrease is likely caused by lexical overlap, as both categories often share common terminology regarding finance, corporate entities, and technological innovation
+
 ## Result
