@@ -16,3 +16,19 @@ Put your title and description (optional). The service will show the most likely
 | **Accuracy** | — | — | **0.90** | **2000** |
 | **Macro avg** | 0.90 | 0.90 | 0.90 | 2000 |
 | **Weighted avg** | 0.90 | 0.90 | 0.90 | 2000 |
+
+## Data
+Dataset: ag_news - texts with category ([why this? see EDA]())
+
+Train subset: 10.000 samples
+
+Test subset: 2000 samples
+
+## Model
+Model: microsoft/deberta-v3-small - tuned BERT is great in learning connection between context and word 
+
+Made fine-tuning for news classification
+
+## Experiments
+
+## Result
