@@ -18,7 +18,7 @@ Put your title and description (optional). The service will show the most likely
 | **Weighted avg** | 0.90 | 0.90 | 0.90 | 2000 |
 
 ## Data
-Dataset: ag_news - texts with category ([why this? see EDA]())
+Dataset: ag_news - texts with category ([why this? see EDA](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/EDA.ipynb))
 
 Train subset: 10.000 samples
 
