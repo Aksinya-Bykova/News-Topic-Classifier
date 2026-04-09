@@ -41,4 +41,4 @@ Made fine-tuning for news classification
 *   Classification Challenges: Performance slightly dips in the **Business** and **Sci/Tech** (**F1-score 0.86–0.87**). This marginal decrease is likely caused by lexical overlap, as both categories often share common terminology regarding finance, corporate entities, and technological innovation
 
 # Optimization
-
+![sample onnx](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2021-12-50.png)
