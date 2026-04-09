@@ -22,11 +22,10 @@ Put your title and description (optional). The service will show the most likely
 | **Weighted avg** | 0.90 | 0.90 | 0.90 | 2000 |
 
 ## Data
-Dataset: ag_news - texts with category ([why this? see EDA](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/EDA.ipynb))
-
-Train subset: 10.000 samples
-
-Test subset: 2000 samples
+*   **Dataset:** `ag_news` - benchmark dataset for short text classification
+*   **Why this choice?** It is perfectly balanced across 4 distinct categories (World, Sports, Business, Sci/Tech), allowing us to train a classifier without dealing with severe class imbalance. The short nature of news titles and abstracts makes it an ideal environment to test the raw efficiency and speed of NLU models
+*   **Subset sizes:** 10,000 samples for training and 2,000 samples for testing
+*   See [EDA Notebook](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/EDA.ipynb)
 
 ## Model
 Model: **microsoft/deberta-v3-small** - tuned BERT is great in learning connection between context and word 
@@ -34,11 +33,11 @@ Model: **microsoft/deberta-v3-small** - tuned BERT is great in learning connecti
 Made fine-tuning for news classification
 
 ## Experiments
-*   **Number of Epochs:** 3 (times of learning all dataset)
-*   **Learning Rate:** `2e-5` (a low value chosen to preserve the model's pre-trained knowledge and avoid breaking it)
-*   **Batch Size:** 16 (the model processed the data in groups of 16 samples per iteration)
-*   **Optimization:** `weight_decay=0.01` was used as a regularization technique to prevent overfitting
-*   **Evaluation Strategy:** The model was evaluated on the test set at the end of every epoch (`eval_strategy="epoch"`)
+*   **Number of Epochs:** 3 
+*   **Learning Rate:** `2e-5`
+*   **Batch Size:** 16
+*   **Optimization:** `weight_decay=0.01`
+*   **Evaluation Strategy:** `eval_strategy="epoch"`
 
 ## Results
 *   Highest Accuracy: **Sports**, **F1-score of 0.97**, indicating very high precision and recall.
