@@ -6,6 +6,8 @@ Put your title and description (optional). The service will show the most likely
 
 ![sample](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2017-32-57.png)
 
+## (here is baseline version)
+
 | Category | Precision | Recall | F1-Score | Support |
 | :--- | :---: | :---: | :---: | :---: |
 | **World** | 0.92 | 0.88 | 0.90 | 497 |
