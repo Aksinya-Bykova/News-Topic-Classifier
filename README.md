@@ -46,3 +46,5 @@ Made fine-tuning for news classification
 ## [Optimized version code](https://github.com/Aksinya-Bykova/News-Topic-Classifier/tree/main/onnx)
 
 This version is deployed on HF
+
+# from 700 to 12 ms!!!
