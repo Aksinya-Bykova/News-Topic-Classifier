@@ -1,0 +1,8 @@
+transformers==4.43.3
+optimum[onnxruntime]
+torch
+sentencepiece
+protobuf==3.20.3
+accelerate
+pandas
+gradio
