@@ -42,3 +42,7 @@ Made fine-tuning for news classification
 
 # Optimization
 ![sample onnx](https://github.com/Aksinya-Bykova/News-Topic-Classifier/blob/main/assets/Screenshot%20from%202026-04-09%2021-12-50.png)
+
+## [Optimized version code](https://github.com/Aksinya-Bykova/News-Topic-Classifier/tree/main/onnx)
+
+This version is deployed on HF
