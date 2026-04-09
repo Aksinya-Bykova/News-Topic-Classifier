@@ -47,4 +47,4 @@ Made fine-tuning for news classification
 
 This version is deployed on HF
 
-# from 700 to 12 ms!!!
+# from 751 to 12 ms!!!
